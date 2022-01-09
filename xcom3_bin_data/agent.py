@@ -1,0 +1,4 @@
+from xcom3_bin_data.constants import AGENT_TYPE_NAMES_OFFSET_START, AGENT_TYPE_NAMES_OFFSET_END
+from xcom3_bin_data.str_tab import StrTabDescriptor
+
+AgentTypeNamesDescriptor = StrTabDescriptor(AGENT_TYPE_NAMES_OFFSET_START, AGENT_TYPE_NAMES_OFFSET_END)
